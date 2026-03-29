@@ -1,0 +1,844 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Data Shapley: Equitable Valuation of Data for Machine Learning",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          96.8203125,
+          89.9119873046875
+        ],
+        [
+          498.78009033203125,
+          89.9119873046875
+        ],
+        [
+          498.78009033203125,
+          104.2581787109375
+        ],
+        [
+          96.8203125,
+          104.2581787109375
+        ]
+      ]
+    },
+    {
+      "title": "Amirata Ghorbani 1 James Zou 2",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          224.419921875,
+          141.15234375
+        ],
+        [
+          369.1018981933594,
+          141.15234375
+        ],
+        [
+          369.1018981933594,
+          152.96612548828125
+        ],
+        [
+          224.419921875,
+          152.96612548828125
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          150.01171875,
+          174.97021484375
+        ],
+        [
+          194.68328857421875,
+          174.97021484375
+        ],
+        [
+          194.68328857421875,
+          186.9254150390625
+        ],
+        [
+          150.01171875,
+          186.9254150390625
+        ]
+      ]
+    },
+    {
+      "title": "1. Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.43999481201172,
+          573.8541564941406
+        ],
+        [
+          132.27606201171875,
+          573.8541564941406
+        ],
+        [
+          132.27606201171875,
+          585.8093566894531
+        ],
+        [
+          55.43999481201172,
+          585.8093566894531
+        ]
+      ]
+    },
+    {
+      "title": "2. Equitable Data Valuation for ML",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          54.984375,
+          566.9601593017578
+        ],
+        [
+          237.36228942871094,
+          566.9601593017578
+        ],
+        [
+          237.36228942871094,
+          578.9153594970703
+        ],
+        [
+          54.984375,
+          578.9153594970703
+        ]
+      ]
+    },
+    {
+      "title": "3. Approximating Data Shapley",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          54.984375,
+          614.7811584472656
+        ],
+        [
+          216.3515625,
+          614.7811584472656
+        ],
+        [
+          216.3515625,
+          626.7363586425781
+        ],
+        [
+          54.984375,
+          626.7363586425781
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Approximating Shapley Value",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          307.1953125,
+          118.4205322265625
+        ],
+        [
+          453.0234375,
+          118.4205322265625
+        ],
+        [
+          453.0234375,
+          128.390625
+        ],
+        [
+          307.1953125,
+          128.390625
+        ]
+      ]
+    },
+    {
+      "title": "Algorithm 1 Truncated Monte Carlo Shapley",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          54.0,
+          68.25
+        ],
+        [
+          246.75,
+          68.25
+        ],
+        [
+          246.75,
+          78.1171875
+        ],
+        [
+          54.0,
+          78.1171875
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Approximating Performance Metric V",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          54.0,
+          492.0
+        ],
+        [
+          237.0,
+          492.0
+        ],
+        [
+          237.0,
+          502.34765625
+        ],
+        [
+          54.0,
+          502.34765625
+        ]
+      ]
+    },
+    {
+      "title": "Algorithm 2 Gradient Shapley",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          304.8046875,
+          68.25
+        ],
+        [
+          436.5,
+          68.25
+        ],
+        [
+          436.5,
+          78.50390625
+        ],
+        [
+          304.8046875,
+          78.50390625
+        ]
+      ]
+    },
+    {
+      "title": "4. Experiments & Applications",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          306.0,
+          651.0
+        ],
+        [
+          465.0,
+          651.0
+        ],
+        [
+          465.0,
+          660.75
+        ],
+        [
+          306.0,
+          660.75
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Data Shapley for Disease Prediction",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          54.0,
+          451.5
+        ],
+        [
+          225.75,
+          451.5
+        ],
+        [
+          225.75,
+          462.12890625
+        ],
+        [
+          54.0,
+          462.12890625
+        ]
+      ]
+    },
+    {
+      "title": "4.2. Synthetic Data",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          306.0,
+          486.0
+        ],
+        [
+          387.75,
+          486.0
+        ],
+        [
+          387.75,
+          496.16015625
+        ],
+        [
+          306.0,
+          496.16015625
+        ]
+      ]
+    },
+    {
+      "title": "4.3. Label Noise",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          54.38671875,
+          484.55859375
+        ],
+        [
+          122.96649932861328,
+          484.55859375
+        ],
+        [
+          122.96649932861328,
+          495.256103515625
+        ],
+        [
+          54.38671875,
+          495.256103515625
+        ]
+      ]
+    },
+    {
+      "title": "4.4. Data Quality and Value",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          303.908203125,
+          639.24609375
+        ],
+        [
+          424.978759765625,
+          639.24609375
+        ],
+        [
+          424.978759765625,
+          650.6731109619141
+        ],
+        [
+          303.908203125,
+          650.6731109619141
+        ]
+      ]
+    },
+    {
+      "title": "4.5. Group Shapley Value",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          54.685546875,
+          510.2795104980469
+        ],
+        [
+          163.67369079589844,
+          510.2795104980469
+        ],
+        [
+          163.67369079589844,
+          520.91015625
+        ],
+        [
+          54.685546875,
+          520.91015625
+        ]
+      ]
+    },
+    {
+      "title": "5. Related Works",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          307.1953125,
+          376.0211486816406
+        ],
+        [
+          395.6484375,
+          376.0211486816406
+        ],
+        [
+          395.6484375,
+          387.9763488769531
+        ],
+        [
+          307.1953125,
+          387.9763488769531
+        ]
+      ]
+    },
+    {
+      "title": "6. Discussion",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.283203125,
+          543.0501708984375
+        ],
+        [
+          121.20556640625,
+          543.0501708984375
+        ],
+        [
+          121.20556640625,
+          555.00537109375
+        ],
+        [
+          55.283203125,
+          555.00537109375
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          54.984375,
+          67.67578125
+        ],
+        [
+          110.9838638305664,
+          67.67578125
+        ],
+        [
+          110.9838638305664,
+          79.80230712890625
+        ],
+        [
+          54.984375,
+          79.80230712890625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          310
+        ],
+        [
+          "Line",
+          97
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          641
+        ],
+        [
+          "Line",
+          106
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          556
+        ],
+        [
+          "Line",
+          114
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "Equation",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          106
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          107
+        ],
+        [
+          "Span",
+          94
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          155
+        ],
+        [
+          "Line",
+          64
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          221
+        ],
+        [
+          "Line",
+          63
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          150
+        ],
+        [
+          "Line",
+          63
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Figure",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "FigureGroup",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          254
+        ],
+        [
+          "Line",
+          90
+        ],
+        [
+          "ListItem",
+          28
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/ghorbani19c"
+}
